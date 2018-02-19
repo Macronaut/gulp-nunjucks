@@ -1,0 +1,9 @@
+{% extends 'default.njk' %}
+
+{% set title = "Home" %}
+
+{% block body %}
+    {% for name in names %}
+        {{name}}
+    {% endfor %}
+{% endblock %}

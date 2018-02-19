@@ -1,0 +1,31 @@
+{
+  "name": "gulp-nunjucks",
+  "version": "1.0.0",
+  "description": "Development in a nunjucks-based enviroment",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "keywords": [
+    "gulp/development/node"
+  ],
+  "author": "Marcos Vinicius Dreher Oliveira",
+  "license": "ISC",
+  "devDependencies": {
+    "assemble": "^0.24.3",
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-data": "^1.3.1",
+    "gulp-html-beautify": "^1.0.1",
+    "gulp-image-resize": "^0.13.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-inject": "^4.3.0",
+    "gulp-nunjucks-render": "^2.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sass-lint": "^1.3.4",
+    "run-sequence": "^2.2.1"
+  },
+  "dependencies": {
+    "gulp-watch": "^5.0.0"
+  }
+}

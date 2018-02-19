@@ -1,0 +1,9 @@
+{% macro input(name = null, placeholder = null) %}
+    {% if name or placeholder %}
+        <form>
+            <input id='{{name}}' type='text' value='{{placeholder}}'>
+        </form>
+    {% else %}
+        <p>Nenhum valor foi setado para o Input</p>
+    {% endif %}
+{% endmacro %}

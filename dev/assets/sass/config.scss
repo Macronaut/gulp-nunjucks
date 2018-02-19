@@ -1,0 +1,13 @@
+@import 'data.scss';
+
+@each $color in map-keys($colors) {
+    %background-#{$color} { background-color: map-get($colors, $color); }
+    .background-#{$color} { background-color: map-get($colors, $color); }
+    
+    %color-#{$color} { color: map-get($colors, $color); }
+    .color-#{$color} { color: map-get($colors, $color); }    
+}
+
+@each $size in map-keys($sizes) {
+    .text-#{$size} { font-size: map-get($sizes, $size); }
+}

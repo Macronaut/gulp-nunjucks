@@ -1,0 +1,10 @@
+{# Imports #}  {% from "templates/_macros/input.njk" import input %} {# || #}
+
+{# Header Initialization #} {% block header %}{% endblock %}
+
+{# Body Inject #}
+    <body>
+        {% block body %}{% endblock %}
+        <!-- inject:js -->
+        <!-- endinject -->
+    </body>
